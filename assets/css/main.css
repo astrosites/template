@@ -225,14 +225,15 @@ h6 {
 	font-size: 0.6rem;
 }
 
-/* media queries (@media) are what make web pages mobile friendly.
-   web pages with media queries "respond" to changes in the webpage width by
-   changing the styling of individual elements.
+/* 	
+	media queries (@media) are what make web pages mobile friendly.
+   	web pages with media queries "respond" to changes in the webpage width by
+   	changing the styling of individual elements.
 
 	When screens render the page with 736 pixels or less of width, then this
 	CSS will overwrite the old CSS.
 
-   See here for more: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+   	See here for more: https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 */
 @media screen and (max-width: 736px) {
 
