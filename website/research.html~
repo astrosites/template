@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Under The Bridge 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130602
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="image/png" href="icon/telicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="icon/telicon-16x16.png" sizes="16x16" />
+<title>Tim Carleton</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">
+	<div id="menu" class="container">
+		<ul>
+		  <li><a href="home.html">Home</a></li>
+		  <li ><a href="aboutme.html">About Me</a></li>
+		  <li "current_page_item"><a
+		  href="research.html">Research</a></li>
+		  <li><a href="cv_current.pdf"?>CV</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Research</h2>
+			</div>
+			<div id="content-header">
+			My research focuses on understanding how
+			galaxy properties affect star formation in
+			galaxies at z>1, with the ultimate goal of
+			understanding the decline in global
+			star-formation activity in the past 10 Gyr.
+			</div>
+			  <h3>Satellite Quenching at high
+			  redshift</h3>
+			<p>
+			It is well known that environment plays an
+			important role in shutting down
+			star formation (or quenching) in dwarf galaxies.
+			While many physical mechanisms (e.g. ram-pressure
+			stripping, strangulation, starvation...) have been put
+			forward to explain this process,
+			observational evidence is only beginning to settle the
+			question which of these effects are at play in
+			low mass (M<sub>*</sub></sub>~10<sup>8</sup>
+			M<sub>&odot;</sub>) dwarfs in the local
+			universe, and the relative importance of each effect. Observations of
+			satellite-quenching in similar dwarfs at high-z provide an
+			important piece of our understanding of the
+			mechanisms at play during the decline in star-formation.
+			</p>
+			  <h3>CO-H<sub>2</sub> Conversion Factor</h3>
+			<!--<span class="image image-right"><img
+			src="images/cgasphibbsksaco.png" alt=""/></span>--!>
+			<p>
+			Molecular gas is the principal
+			fuel in the star formation process, so understanding the
+			molecular gas content of high-redshift
+			galaxies goes a long way in building our
+			understanding of this process at 
+			high-z. A crucial component of
+			interpreting observations of molecular gas
+			at high-z is the CO-H<sub>2</sub> Conversion
+			Factor (&alpha;<sub>CO</sub>) relating the
+			observed CO luminosity to the molecular gas
+			mass.
+			Using data from the <a
+			href="http://www.iram-institute.org/EN/content-page-279-7-158-240-279-0.html">
+			PHIBSS</a> and <a
+			href="http://www.iram-institute.org/EN/content-page-298-7-158-240-298-0.html">
+			COLD GASS</a> programs, I have investigated
+			the impact of metallicity and density
+			on the galaxy-wide &alpha;<sub>CO</sub>.
+			<!--By comparing the observed CO luminosities
+			to the observed star-formation rates, we are
+			able to gain insight into the structure of
+			star-formation in these galaxies. 
+			I am interested in the molecular gas content
+			of galaxies and how it influences galaxy evolution.
+			The molecular gas content of galaxies is
+			primarily studied through emission of carbon
+			monoxide (CO). However, the conversion between
+			the optically thick CO luminosity and the
+			total molecular gas mass
+			(&alpha;<sub>CO</sub>) relies on a number of
+			assumptions. Because of its importance in
+			understanding molecular gas, a full
+			understanding of &alpha;<sub>CO</sub> and its
+			dependencies is critical for our theory of
+			galaxy evolution.
+			Using the Kennicutt-Schmidt law, I measure the
+			molecular gas content in high-redshift in
+			order to study how &alpha;<sub>CO</sub> varies
+			with redshift.--!>
+			  
+		</div>
+	</div>
+</div>
+</body>
+</html>

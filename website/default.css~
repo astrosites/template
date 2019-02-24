@@ -1,0 +1,512 @@
+html, body {
+	min-height: 100vh;
+
+}
+
+body {
+	left-margin:100px;
+	right-margin:100px;
+	padding: 0px;
+	background: #171717;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+
+h1, h2 {
+	margin-top: 0;
+	margin-bottom:0;
+	padding: 0;
+}
+
+
+h3 {
+	padding: 0;
+	text-transform:uppercase;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom:0;
+    font-weight: 700;
+    font-size: 2em;
+    color: #171717;
+    text-align:right;
+    margin-right:100px;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+    line-height: 190%;
+    text-align:justify;
+}
+
+#content-header{
+    background-clip: content-box; 
+    font-size:18pt;
+    font-style:italic;
+    margin-bottom:50px;
+}
+
+
+
+
+a {
+	color: #171717;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+		.image img
+		{
+			display: block;
+			width: 100%;
+		}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+
+	.image-right
+	{
+		float: right;
+		margin: 0em 0em 2em 2em;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+		.image-centered img
+		{
+			margin: 0 auto;
+			width: auto;
+		}
+
+hr {
+	display: none;
+}
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 3em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1.2em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 56px;
+		height: 56px;
+		line-height: 56px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+
+	}
+
+	.title h2
+	{
+		font-weight: 700;
+		font-size: 2em;
+		color: #171717;
+		text-align: left;
+	}
+	.title h3
+	{
+	    text-transform:uppercase;
+	}
+
+	.title h4 {
+	   font-weight: 700;
+	   font-size: 2em;
+	   color: #171717;
+	   text-align:right;
+	}
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+/** WRAPPER */
+
+#wrapper {
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+#footer-wrapper
+{
+	background: #0F0F0F;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		height: 505px;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo 
+	{
+		position: absolute;
+		top: 12em;
+		left:10px;
+		margin: 20px 0px;
+		padding-left:3em;
+		padding-right:3em;
+		padding-top:1em;
+		padding-bottom:1em;
+		background: rgba(0,0,0,0.2);
+		text-transform: uppercase;
+		text-shadow: -1px -1px 0 rgba(0,0,0,1);
+		z-index: 10;
+		text-align:left;
+	}
+
+	#otherlogo 
+	{
+		top: 1em;
+	/**	margin: 0px 40px;**/
+		/*right: 5px;*/
+		left:50px;
+		width:300px;
+		padding: 1em 1em;
+		background: rgba(10,10,10,1);
+		text-transform: uppercase;
+		/**text-shadow: -1px -1px 0 rgba(0,0,0,1);**/
+		z-index: 10;
+		text-align:left;
+		position: absolute;
+		margin-top:0px;
+		margin-bottom:0em;
+		height:50px;
+		color:#FFFFFF;
+		font-size:1.5em;
+		font-weight: 400;
+	}
+	
+	#logo h1
+	{
+		letter-spacing: 0.10em;
+		text-align: left;
+		font-size: 3em;
+		margin-left:0;
+	}
+	
+	#logo p 
+	{
+		letter-spacing: 0.10em;
+		color: #FFFFFF;
+	}
+	
+	#logo a 
+	{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner 
+	{
+		position: absolute;
+		left: 0;
+		overflow: hidden;
+		z-index: 1;
+	}
+	
+	#banner .image
+	{
+		border: 5px solid #FFFFFF;
+	}
+	
+
+/** MENU */
+
+#menu {
+	overflow: hidden;
+	margin-bottom: 2em;
+	background: #FFF;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	height: 100px;
+	/**width:1200px;**/
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	line-height: 100px;
+	padding: 0 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	font-weight: 600;
+	border: none;
+	color: #3D3D3D;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	background: #F5F5F5;
+}
+
+#menu .current_page_item a {
+	background: #F5F5F5;
+}
+
+/** PAGE */
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 2em 0em 5em 0em;
+}
+
+/** CONTENT */
+
+#content
+{
+	float: left;
+	width: 1200px-5em;
+	padding: 0 5em 0 5em;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		width: 345px;
+	}
+	
+	#sidebar .title h2
+	{
+		font-size: 1.6em;
+	}
+	
+	#sidebar .box1
+	{
+		margin-bottom: 3em;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		overflow: hidden;
+		padding: 0em 0em;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+	
+	#footer h2
+	{
+		letter-spacing: 0.20em;
+		font-weight: 700;
+		font-size: 2.4em;
+		color: #FFF;
+	}
+	
+	#footer .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #6F6F6F;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #8C8C8C;
+	}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-bottom: 1px solid #E5E5E5;
+		text-align: center;
+	}
+	
+	#welcome h2
+	{
+		letter-spacing: 0.20em;
+		text-transform: uppercase;
+		font-size: 2.6em;
+	}
+	
+	#welcome p
+	{
+		font-size: 1.3em;
+	}
+
+	#welcome .byline
+	{
+		display: block;
+		padding: 0em 0em 1.5em 0em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #6F6F6F;
+	}
+
+	
+	
