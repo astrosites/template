@@ -1099,7 +1099,7 @@ button {
 	transform: scale(1.0);
 	-webkit-backface-visibility: hidden;
 	position: fixed;
-	background-color: #ffffff;
+	background-color: #000000;
 	top: 0;
 	left: 0;
 	width: 100%;
