@@ -908,11 +908,11 @@ ul.icons {
 		}
 
 			ul.icons li a:hover {
-				background-color: rgba(255, 255, 255, 0.75);
+				background-color: rgba(221, 91, 149, 0.75);
 			}
 
 			ul.icons li a:active {
-				background-color: rgba(255, 255, 255, 0.9);
+				background-color: rgba(221, 91, 149, 0.9);
 			}
 
 /* Table */
