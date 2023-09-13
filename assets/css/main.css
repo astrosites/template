@@ -1146,7 +1146,7 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		background-image: url("../../images/bg.jpg");
+		background-color: #000000;
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
