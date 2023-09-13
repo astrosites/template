@@ -152,7 +152,7 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+	border-bottom: dotted 1px rgba(221, 91, 149, 0.75);
 	text-decoration: none;
 	color: inherit;
 }
@@ -1023,7 +1023,7 @@ button,
 	input[type="button"]:hover,
 	button:hover,
 	.button:hover {
-		background-color: rgba(255, 255, 255, 0.075);
+		background-color: rgba(221, 91, 149, 0.75);
 	}
 
 	input[type="submit"]:active,
@@ -1031,7 +1031,7 @@ button,
 	input[type="button"]:active,
 	button:active,
 	.button:active {
-		background-color: rgba(255, 255, 255, 0.175);
+		background-color: rgba(221, 91, 149, 0.9);
 	}
 
 	input[type="submit"].icon:before,
@@ -1358,11 +1358,11 @@ button {
 			}
 
 				#header nav ul li a:hover {
-					background-color: rgba(221, 91, 149, 0.075);
+					background-color: rgba(221, 91, 149, 0.75);
 				}
 
 				#header nav ul li a:active {
-					background-color: rgba(221, 91, 149, 0.175);
+					background-color: rgba(221, 91, 149, 0.9);
 				}
 
 	#header nav.use-middle:after {
@@ -1581,11 +1581,11 @@ button {
 			}
 
 			#main article .close:hover:before {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgba(221, 91, 149, 0.75);
 			}
 
 			#main article .close:active:before {
-				background-color: rgba(255, 255, 255, 0.175);
+				background-color: rgba(221, 91, 149, 0.9);
 			}
 
 	@media screen and (max-width: 736px) {
