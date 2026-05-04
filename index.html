@@ -11,7 +11,7 @@
 	-->
 	<head>
 		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>AstroSites</title>
+		<title>XinyueSheng-Personal-Website</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
@@ -40,7 +40,7 @@
 							<div class="inner">
 								<!-- Here is a heading where you can put your name -->
 								<h1>
-									First Last
+									Dr. Xinyue Sheng
 								</h1>
 								<!-- 	Here is an image where you can put a picture of you. 
 									You can change the width and height attributes below to change how large
@@ -48,17 +48,17 @@
 
 									Try adding "border-radius: 50%;" to the style attribute.
 								-->
-								<img src="images/Astronomy.jpg" style="width:280px; height:280px; object-fit: cover;">
+								<img src="images/web_avatar.jpg" style="width:280px; height:280px; object-fit: cover;">
 								<!-- 	Here is a paragraph where you can put your position and institution, or
 									a short line about yourself.
 								-->
 								<p>
-									Position <br> Institution
+									Postdoctoral Researcher in AstroML. <br> Astrophysics Research Centre, Queen's University, Belfast
 								</p>
 								<!-- Here is a paragraph where you can put a link to your CV -->
 								<p>
 									<!-- Note you will want to change where this points to! -->
-									<a href="images/Astronomy.jpg" target="_blank">Curriculum Vitae</a>
+									<a href="cv-pubs/cv.pdf" target="_blank">Curriculum Vitae</a>
 								</p>
 							</div>
 						</div>
@@ -76,9 +76,9 @@
 								<li>
 									<a href="#research">Research</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a href="#community">Community</a>
-								</li>
+								</li> -->
 								<li>
 									<a href="#contact">Contact</a>
 								</li>
@@ -101,63 +101,56 @@
 							<h2 class="major">About Me</h2>
 							<!-- Here is an image that you can customize for this page -->
 							<span class="image main">
-								<img src="images/pic01.jpg" alt=""/>
+								<img src="images/pic01.jpeg" alt=""/>
 							</span>
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
 								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education:</b>
-							</p>
-							<p>
-								<b>Research Interests:</b>
-							</p>
-							<p>
-								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/">Include ADS link!</a>
+								Hi, I'm Xinyue! Welcome to my personal website.
+								I'm currently a postdoctoral researcher (and previously a PhD student) at the Astrophysics Research Centre, Queen's University, Belfast, Northern Ireland, United Kingdom.
+								My research interests include machine learning, Rubin/LSST, supernovae, and nuclear transients.
+								I grew up in CHANGCHUN city in northeastern China -- the capital of JILIN province, where the people are known for their hospitality and love for food!
+								*Fun fact: CHANGCHUN means "long spring" in Chinese, but it is actually a city with very long winter! 🙈
+								
 							</p>
 						</article>
 
 						<!-- Here is the "Research" card. -->
 						<article id="research">
 							<h2 class="major">Research</h2>
+							<p>
+								<b>Full publications available on <a href="https://ui.adsabs.harvard.edu/user/libraries/Xpc5l3CiTsOCQ2tweP19ew">my NASA/ADS library</a></b>
+							</p>
 							<span class="image main">
-								<img src="images/pic02.jpg" alt=""/>
+								<img src="images/needle_pipeline.jpg" alt=""/>
 							</span>
 							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-								-->
-								<b>Project I Title</b><br>Project description, including further links to posters, talks, publications.
+								<b><a href="https://academic.oup.com/mnras/article/531/2/2474/7685960">
+									NEEDLE: Neural Engine for Discovering Luminous Events</a></b><br>I am the lead developer of a multi-modal machine-learning pipeline designed for LSST-era alert streams to identify rare transients such as Superluminous Supernovae and Tidal Disruption Events from real-time survey data. Predictions are publicly distributed through the <i>Lasair</i> UK alert broker and have contributed to 29 confirmed discoveries since Aug.~2024.
+								<a href="https://academic.oup.com/mnras/article/531/2/2474/7685960"> [Paper I]</a> 
+								<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251214644S/abstract"> [Paper II]</a>
+
 							</p>
+							<span class="image main">
+								<img src="images/srnn_arch.png" alt=""/>
+							</span>
 							<p>
-								<b>Project II Title</b><br>Project description, including further links to posters, talks, publications.
+								<b><a href="https://academic.oup.com/mnras/article/512/4/5580/6553834">SRNN Framework for LSST AGN Time-Series Analysis</a></b><br>Implementation of a Stochastic Recurrent Neural Network (SRNN) for modelling simulated AGN light curves under LSST Wide-Fast-Deep cadences using CARMA variability models, demonstrating recovery of variability structure functions while highlighting cadence limitations.
 							</p>
 						</article>
 
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<span class="image main">
-								<img src="images/pic03.jpg" alt=""/>
-							</span>
-							<p>
-								<b>Teaching:</b>
-							</p>
-							<p>
-								<b>Outreach:</b>
-							</p>
-							<p>
-								<b>Equity & Inclusion:</b>
-							</p>
-						</article>
 
 						<!-- Here is a the "Contact" card. -->
 						<article id="contact">
 							<h2 class="major">Contact</h2>
+							<span class="image main">
+								<img src="images/pic03.jpeg" alt=""/>
+							</span>
 							<p> 
-								<b>Email:</b> 
+								<b>Email: x.sheng@qub.ac.uk</b> 
 							</p>
 							<p> 
-								<b>Address:</b> 
+								<b>Address: School of Mathematics and Physics, Queen's University Belfast. BT7 1NN, Belfast, Northern Ireland, United Kingdom</b> 
 							</p>
 
 							<!-- 	Here are the fancy icons that link to your social media.
@@ -165,31 +158,21 @@
 								here: https://fontawesome.com/icons
 							-->
 							<ul class="icons">
-								<!-- The Twitter icon -->
-								<li>
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<a href="#" class="icon fa-twitter">
-										<span class="label">Twitter</span>
-									</a>
-								</li>
-								<!-- The Facebook icon -->
-								<li>
-									<a href="#" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li>
-								<!-- The Instagram icon -->
-								<li>
-									<a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a>
-								</li>
+				
 								<!-- The GitHub icon -->
 								<li>
-									<a href="#" class="icon fa-github">
+									<a href="https://github.com/XinyueSheng2019" class="icon fa-github">
 										<span class="label">GitHub</span>
+									</a>
+								</li>
+								<!-- <li>
+									<a href="https://orcid.org/0000-0002-6527-1368" class="fa-brands fa-orcid">
+										<span class="label">ORCID</span>
+									</a>
+								</li> -->
+								<li>
+									<a href="https://www.linkedin.com/in/xinyue-s-023a6519a/" class="icon fa-linkedin">
+										<span class="label">LinkedIn</span>
 									</a>
 								</li>
 								<!-- 	We can add a new icon by searching on the Font Awesome website
@@ -197,11 +180,11 @@
 
 									We found "envelope" here: https://fontawesome.com/icons/envelope
 								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
+								<li>
+									<a href="mailto:x.sheng@qub.ac.uk" class="icon fa-envelope">
 										<span class="label">Email</span>
 									</a>
-								</li> -->
+								</li>
 							</ul>
 						</article>
 					</div>
@@ -211,7 +194,14 @@
 						<!-- 	You can change "Untitled" to your name to show everyone that
 							this is your work.
 						-->
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">
+							Image Credit:
+							<a href="https://noirlab.edu/public/images/iotw2201a/">Rubin Observatory/NSF/AURA/C. Corco</a>.<br>
+							Web template Credit:
+							<a href="https://astrosites.github.io/">HTML5 UP & AstroSites</a>.<br>
+							Last updated: 
+							<script>document.write(new Date().toLocaleDateString());</script>
+						</p>
 					</footer>
 
 			</div>
